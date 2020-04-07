@@ -1,5 +1,4 @@
 package bst;
-
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
@@ -34,8 +33,7 @@ public class XmlReader {
 
         }
     }
-
-    public CustomerBst getCustomers() {
+    public CustomerBst getCustomers(){
         return myXmlHandler.getCustomers();
     }
 }
